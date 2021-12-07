@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <form action="#" method="post" id="Form">
+            <div class="<Main">
+                <div class="Heading1">
+                    <h1>Contact Us</h1>
+                </div>
+
+                <div class="Heading2">
+                    <h3>Contact us today,and get replay with in 24 hours!</h3>
+                </div>
+
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="Name" placeholder="Enter your name" pattern="[A-Za-z]*" required />
+                </div><br>
+
+                <div>
+                    <label for="Enter your Email Address"></label>
+                    <input type="email" id="Email" placeholder="Enter your Email Address">
+                </div><br>
+
+                <div>
+                    <label for="Enter your Phone #"></label>
+                    <input type="email" id="Phone" placeholder="Enter your Phone #">
+                </div><br>
+
+                <div>
+                    <label for="WebSite"></label>
+                    <input type="url" id="WebSite" placeholder="Enter your Web Site">
+                </div><br>
+
+                <div>
+                    <label for="Message"></label>
+                    <textarea name="Message" id="Message" cols="30" rows="5" maxlength="140" placeholder="Enter your message"></textarea>
+                </div><br>
+            </div>
+
+            <div>
+                <button onclick="Do()" id="Submit" type="button" >Submit</button>
+            </div><br><br>
+
+            <div id="Result">
+                We have received :
+                <label id="store"></label>
+            </div>
+        </form>
+
+    </body>
+</html>
